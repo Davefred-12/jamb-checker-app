@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="./jamb.jpg" class="jamb" />
+
+        <h1 class="header">JAMB ADMISSION CHECKER</h1>
+
+        <p class="para">Ensure you accurately put the score of each subject accordingly to see if you are eligible for admission </p>
+
+        <hr />
+
+        <div>
+            <div class="parentCompulsoryCourse">
+                <div class="flexInput compulsoryCourse">
+                    <label for="">English<span>*</span> <input type="number" name="engResult" class="engResult" required></label>
+                  
+                </div>
+    
+                <div class="flexInput compulsoryCourse">
+                    <label for="">Mathematics<span>*</span> <input type="number" name="matResult" class="matResult" required> </label>
+                    
+                </div>
+            </div>
+ 
+            <div  class= "parentScienceCourse">
+                <div class="flexInput scienceCourse">
+                    <select class="comCourse">
+                        <option value="select">- Select Subject - </option>
+                        <option value="Econmics">Chemistry</option>
+                        <option value="Commerce">Commerce</option>
+                        <option value="Accounting">Accounting</option>
+                        <option value="Literature">Literature</option>  
+                </select>
+                    <input type="number" name="phyResult" class="phyResult" required></label>
+                   
+                </div>
+    
+                <div class="flexInput scienceCourse">
+                    <select class="comCourse">
+                        <option value="select">- Select Subject - </option>
+                        <option value="Physic">Physic</option>
+                        <option value="Chemistry">Economics</option>
+                        <option value="Biology">Biology</option>
+                        <option value="TD">TD</option>  
+                </select>
+                <input type="number" name="cheResult" class="cheResult" required>
+                </div>    
+            </div>
+
+            <button  class="login">Check Result</button>
+        </div>
+        <a href="" class="link">jamb.org.gov copyright @ 2024</a>
+        <script src="index.js"></script>
+</body>
+</html>
